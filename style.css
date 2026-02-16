@@ -1,0 +1,98 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-bar {
+  width: 20%;
+  height: 100vh;
+  box-shadow: 0px 0px 5px 0px black;
+}
+
+.container {
+  width: 79%;
+  height: 100vh;
+  overflow-x: auto;
+  box-shadow: 0px 0px 5px 0px black;
+}
+
+.box{
+  width: 100%;
+  height: 100vh;
+}
+
+.pallette{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: #009efd;
+}
+#all{
+
+  background: linear-gradient(135deg, #f97e03 , #fbfbfc, #02a526,#fa709a , #fee140, #4facfe , #00f2fe, #e0c3fc , #8ec5fc, #00d2ff , #3a47d5, #2af598 , #009efd, #17e5f4 , #a783f5, #7d05fd)
+}
+
+#gradient-1{
+  background: linear-gradient(135deg, #f97e03 , #fbfbfc, #02a526)
+}
+
+#gradient-2{
+  background: linear-gradient(135deg, #f76b95 , #fade3c)
+}
+
+#gradient-3{
+  background: linear-gradient(135deg, #46a4f6 , #03edfa)
+}
+
+#gradient-4{
+  background: linear-gradient(135deg, #e0c3fc , #8ec5fc )
+}
+
+#gradient-5{
+  background: linear-gradient(135deg, #00d2ff , #3a47d5)
+}
+
+#gradient-6{
+  background: linear-gradient(135deg, #2af598 , #009efd)
+}
+
+#gradient-7{
+  background: linear-gradient(135deg, #17e5f4 , #a783f5, #7d05fd)
+}
+
+.side-bar h2{
+  margin: 0.5em 0em;
+  font-size: 40px;
+  padding: 0.3em;
+}
+
+.side-bar ul li {
+  font-size: 25px;
+  width: 100%;
+  height: 100px;
+  padding: 0em 1em;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.373);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.side-bar ul li:hover {
+  box-shadow: 0px 0px 10px -2px black;
+}
+
+.side-bar ul li a{
+  text-decoration: none;
+  color: black;
+}
